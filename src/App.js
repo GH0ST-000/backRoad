@@ -7,14 +7,16 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <body>
-        <Navbar/>
+      <>
+       <Navbar/>
         <Hero/>
         <About/>
         <Services/>
         <Tours/>
         <Footer/>
-  </body>
+      </>
+       
+
   )
 }
 
